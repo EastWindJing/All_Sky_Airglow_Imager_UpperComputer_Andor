@@ -1,0 +1,2 @@
+# All_Sky_Airglow_Imager_UpperComputer_Andor
+全天空气辉成像仪数据采集软件的Andor版本
