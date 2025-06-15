@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ActionEdit</class>
+ <widget class="QWidget" name="ActionEdit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>521</width>
+    <height>361</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="5" column="2">
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="text">
+        <string>电源</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QComboBox" name="comboBox">
+       <item>
+        <property name="text">
+         <string>ALL_ON</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALL_OFF</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1_ON</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1_OFF</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2_ON</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2_OFF</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3_ON</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3_OFF</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4_ON</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4_OFF</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5_ON</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5_OFF</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>6_ON</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>6_OFF</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>7_ON</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>7_OFF</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>8_ON</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>8_OFF</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>编号-开闭</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>本节所有动作重复次数
+(-1表示无限重复直至当前观测时段结束)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QRadioButton" name="radioButton_8">
+       <property name="text">
+        <string>相机拍摄</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLineEdit" name="lineEdit_3"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>采集并保存数据</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QRadioButton" name="radioButton">
+       <property name="text">
+        <string>重复标记</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>曝光时间（ms）</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLineEdit" name="lineEdit_2"/>
+     </item>
+     <item row="6" column="2">
+      <widget class="QLineEdit" name="lineEdit_4"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QRadioButton" name="radioButton_6">
+       <property name="text">
+        <string>相机冷却</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>波段（nm）</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>温度（℃）</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QComboBox" name="comboBox_4">
+       <item>
+        <property name="text">
+         <string>750-850</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>862</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>630</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>000</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QRadioButton" name="radioButton_3">
+       <property name="text">
+        <string>睡眠</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QRadioButton" name="radioButton_7">
+       <property name="text">
+        <string>曝光时长</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>时长（s）</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QRadioButton" name="radioButton_5">
+       <property name="text">
+        <string>滤波轮</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_AddAction">
+       <property name="text">
+        <string>添加</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_Cancel">
+       <property name="text">
+        <string>取消</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

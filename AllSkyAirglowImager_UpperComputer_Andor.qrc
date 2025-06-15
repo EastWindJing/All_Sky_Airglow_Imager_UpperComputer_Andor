@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ResourceFiles/Logo.ico</file>
+        <file>ResourceFiles/beijing.png</file>
+        <file>ResourceFiles/btn_beijing.ico</file>
+        <file>ResourceFiles/btn_beijing2.ico</file>
+        <file>ResourceFiles/btn_beijing3.png</file>
+        <file>ResourceFiles/btn_beijing3.ico</file>
+    </qresource>
+</RCC>
